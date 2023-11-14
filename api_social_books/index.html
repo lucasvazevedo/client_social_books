@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    
+    <title>Consulta Livros</title>
+</head>
+
+<body>
+    <label for="livro_id">Livro: </label>
+    <input type="text" name="livro_id" id="livro_id">
+    <input type="button" value="Buscar">
+    <br>
+    <hr>
+    <br>
+    <div class="tabela">
+        <!--Rotulo-->
+        <div class="rotulo-coluna">Id</div>
+        <div class="rotulo-coluna">Nome</div>
+        <div class="rotulo-coluna">Resumo</div>
+        <div class="rotulo-coluna">Autor</div>
+        <div class="rotulo-coluna">Editora</div>
+        <!--Dado-->
+        <div class=""celula id="id"></div>
+        <div class="celula" id="nome"></div>
+        <div class="celula" id="resumo"></div>
+        <div class="celula" id="autor"></div>
+        <div class="celula" id="editora"> </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
